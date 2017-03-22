@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sat Mar 18 22:03:02 2017
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : nios2_ddr_prog_mem
+Top-level Entity Name : qsys_nios2_ddr3_top
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 7244
+Total pins : 50
+Total virtual pins : 0
+Total block memory bits : 1,298,576
+Total DSP Blocks : 3
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2
+Total DLLs : 1

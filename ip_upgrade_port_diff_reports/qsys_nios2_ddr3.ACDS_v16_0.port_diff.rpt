@@ -1,0 +1,34 @@
+IP Ports Diff Report for qsys_nios2_ddr3
+Wed Feb 15 14:12:37 2017
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+  2. IP Ports Diff Table
+
+
+
++--------------------------------------------------------------------+
+; IP Information                                                     ;
++----------------------+---------------------------------------------+
+; IP Variation Name    ; qsys_nios2_ddr3                             ;
+; Prior Version        ; ACDS_v13.1.1                                ;
+; New Version          ; ACDS_v16.0                                  ;
+; New File             ; qsys_nios2_ddr3/synthesis/qsys_nios2_ddr3.v ;
+; Has Port Differences ; Yes                                         ;
++----------------------+---------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; IP Ports Diff Table                                                                                                                                 ;
++-------------+-------------------------------------------------------+------------------+----------------+----------------------+--------------------+
+; Change Type ; Port Name                                             ; Prior Port Range ; New Port Range ; Prior Port direction ; New Port direction ;
++-------------+-------------------------------------------------------+------------------+----------------+----------------------+--------------------+
+; Deleted     ; mem_if_ddr3_emif_0_pll_sharing_pll_dr_clk             ; Scalar           ; -              ; output               ; -                  ;
+; Deleted     ; mem_if_ddr3_emif_0_pll_sharing_pll_dr_clk_pre_phy_clk ; Scalar           ; -              ; output               ; -                  ;
++-------------+-------------------------------------------------------+------------------+----------------+----------------------+--------------------+
+
+

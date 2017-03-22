@@ -1,0 +1,13 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OSC_TCXO_20M_FPGA",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.pll_bridge -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.c0.afi_reset -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.transacto -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.c0.afi_half_clk -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.c0.afi_clk -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.c0.ng0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.fifo -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0 -pg 1 -lvl 4 -y 340
+preplace inst qsys_nios2_ddr3.sysid_qsys_0 -pg 1 -lvl 4 -y 110
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.b2p_adapter -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.p2b -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.afi_half_clk -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.oct0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.c0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.afi_reset_export -pg 1
+preplace inst qsys_nios2_ddr3.nios2_qsys_0.reset_bridge -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.clk_src -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.afi_clk -pg 1
+preplace inst qsys_nios2_ddr3 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.clk_rst -pg 1
+preplace inst qsys_nios2_ddr3.jtag_uart_0 -pg 1 -lvl 4 -y 190
+preplace inst qsys_nios2_ddr3.pll_0 -pg 1 -lvl 2 -y 240
+preplace inst qsys_nios2_ddr3.nios2_qsys_0.cpu -pg 1
+preplace inst qsys_nios2_ddr3.nios2_qsys_0.clock_bridge -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.afi_reset -pg 1
+preplace inst qsys_nios2_ddr3.nios2_qsys_0 -pg 1 -lvl 3 -y 150
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dll0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.as0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.m0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.soft_reset -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.p2b_adapter -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.s0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.pll0 -pg 1
+preplace inst qsys_nios2_ddr3.onchip_memory2_0 -pg 1 -lvl 4 -y 30
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.c0.a0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.b2p -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.jtag_phy_embedded_in_jtag_master -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.p0 -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.dmaster.timing_adt -pg 1
+preplace inst qsys_nios2_ddr3.clk_0 -pg 1 -lvl 1 -y 380
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.global_reset -pg 1
+preplace inst qsys_nios2_ddr3.mem_if_ddr3_emif_0.pll_ref_clk -pg 1
+preplace netloc EXPORT<net_container>qsys_nios2_ddr3</net_container>(SLAVE)mem_if_ddr3_emif_0.memory,(SLAVE)qsys_nios2_ddr3.memory) 1 0 4 NJ 370 NJ 370 NJ 370 NJ
+preplace netloc EXPORT<net_container>qsys_nios2_ddr3</net_container>(SLAVE)qsys_nios2_ddr3.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>qsys_nios2_ddr3</net_container>(SLAVE)sysid_qsys_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)jtag_uart_0.clk,(SLAVE)nios2_qsys_0.clk,(MASTER)pll_0.outclk0) 1 2 2 600 330 1100
+preplace netloc EXPORT<net_container>qsys_nios2_ddr3</net_container>(SLAVE)qsys_nios2_ddr3.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>qsys_nios2_ddr3</net_container>(MASTER)mem_if_ddr3_emif_0.afi_reset_export,(MASTER)nios2_qsys_0.debug_reset_request,(SLAVE)nios2_qsys_0.reset,(SLAVE)mem_if_ddr3_emif_0.soft_reset,(MASTER)clk_0.clk_reset,(SLAVE)onchip_memory2_0.reset1,(SLAVE)sysid_qsys_0.reset,(MASTER)mem_if_ddr3_emif_0.afi_reset,(SLAVE)pll_0.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)mem_if_ddr3_emif_0.global_reset) 1 1 4 380 230 620 310 1060 300 1400
+preplace netloc POINT_TO_POINT<net_container>qsys_nios2_ddr3</net_container>(MASTER)nios2_qsys_0.irq,(SLAVE)jtag_uart_0.irq) 1 3 1 N
+preplace netloc INTERCONNECT<net_container>qsys_nios2_ddr3</net_container>(SLAVE)sysid_qsys_0.control_slave,(SLAVE)nios2_qsys_0.debug_mem_slave,(SLAVE)onchip_memory2_0.s1,(MASTER)nios2_qsys_0.instruction_master,(SLAVE)jtag_uart_0.avalon_jtag_slave,(MASTER)nios2_qsys_0.data_master,(SLAVE)mem_if_ddr3_emif_0.avl) 1 2 2 640 290 1080
+preplace netloc EXPORT<net_container>qsys_nios2_ddr3</net_container>(SLAVE)mem_if_ddr3_emif_0.status,(SLAVE)qsys_nios2_ddr3.mem_if_ddr3_emif_0_status) 1 0 4 NJ 490 NJ 490 NJ 490 NJ
+preplace netloc FAN_OUT<net_container>qsys_nios2_ddr3</net_container>(MASTER)clk_0.clk,(SLAVE)pll_0.refclk,(SLAVE)mem_if_ddr3_emif_0.pll_ref_clk) 1 1 3 400 400 NJ 400 1020
+levelinfo -pg 1 0 170 1440
+levelinfo -hier qsys_nios2_ddr3 180 210 470 780 1220 1420
