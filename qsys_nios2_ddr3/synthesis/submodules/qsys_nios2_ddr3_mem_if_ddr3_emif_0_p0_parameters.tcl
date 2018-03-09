@@ -12,7 +12,7 @@ set ::GLOBAL_qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0_dqs_group_size 8
 set ::GLOBAL_qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0_number_of_ck_pins 1
 set ::GLOBAL_qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0_number_of_dm_pins 2
 set ::GLOBAL_qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0_dqs_delay_chain_length 0
-set ::GLOBAL_qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0_uniphy_temp_ver_code 695792001
+set ::GLOBAL_qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0_uniphy_temp_ver_code 395940105
 # PLL Parameters
 
 #USER W A R N I N G !

@@ -1,5 +1,5 @@
 Flow report for nios2_ddr_prog_mem
-Fri Mar  9 10:11:08 2018
+Fri Mar  9 11:54:11 2018
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -41,15 +41,15 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Fri Mar  9 10:11:08 2018           ;
+; Flow Status                     ; Successful - Fri Mar  9 11:53:05 2018           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; nios2_ddr_prog_mem                              ;
 ; Top-level Entity Name           ; qsys_nios2_ddr3_top                             ;
 ; Family                          ; Cyclone V                                       ;
 ; Device                          ; 5CEFA7F23I7                                     ;
 ; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; 4,947 / 56,480 ( 9 % )                          ;
-; Total registers                 ; 7694                                            ;
+; Logic utilization (in ALMs)     ; 4,923 / 56,480 ( 9 % )                          ;
+; Total registers                 ; 7613                                            ;
 ; Total pins                      ; 53 / 240 ( 22 % )                               ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 1,298,576 / 7,024,640 ( 18 % )                  ;
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/09/2018 10:00:53 ;
+; Start date & time ; 03/09/2018 11:45:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; nios2_ddr_prog_mem  ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +---------------------------------------+-------------------------------------------------------------------+--------------------+---------------------+------------------+
 ; Assignment Name                       ; Value                                                             ; Default Value      ; Entity Name         ; Section Id       ;
 +---------------------------------------+-------------------------------------------------------------------+--------------------+---------------------+------------------+
-; COMPILER_SIGNATURE_ID                 ; 8796748825852.152060765027158                                     ; --                 ; --                  ; --               ;
+; COMPILER_SIGNATURE_ID                 ; 8796748825852.152061393919369                                     ; --                 ; --                  ; --               ;
 ; ECO_REGENERATE_REPORT                 ; On                                                                ; Off                ; --                  ; --               ;
 ; ENABLE_SIGNALTAP                      ; On                                                                ; --                 ; --                  ; --               ;
 ; MAX_CORE_JUNCTION_TEMP                ; 100                                                               ; --                 ; --                  ; --               ;
@@ -96,7 +96,7 @@ agreement for further details.
 ; SLD_FILE                              ; qsys_nios2_ddr3/synthesis/qsys_nios2_ddr3.regmap                  ; --                 ; --                  ; --               ;
 ; SLD_FILE                              ; qsys_nios2_ddr3/synthesis/qsys_nios2_ddr3.debuginfo               ; --                 ; --                  ; --               ;
 ; SLD_FILE                              ; db/stp2_auto_stripped.stp                                         ; --                 ; --                  ; --               ;
-; SLD_INFO                              ; QSYS_NAME qsys_nios2_ddr3 HAS_SOPCINFO 1 GENERATION_ID 1520607111 ; --                 ; qsys_nios2_ddr3     ; --               ;
+; SLD_INFO                              ; QSYS_NAME qsys_nios2_ddr3 HAS_SOPCINFO 1 GENERATION_ID 1520610881 ; --                 ; qsys_nios2_ddr3     ; --               ;
 ; SLD_NODE_CREATOR_ID                   ; 110                                                               ; --                 ; --                  ; auto_signaltap_0 ;
 ; SLD_NODE_ENTITY_NAME                  ; sld_signaltap                                                     ; --                 ; --                  ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT         ; SLD_RAM_BLOCK_TYPE=AUTO                                           ; --                 ; --                  ; auto_signaltap_0 ;
@@ -132,35 +132,38 @@ agreement for further details.
 +---------------------------------------+-------------------------------------------------------------------+--------------------+---------------------+------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:46     ; 1.6                     ; 1986 MB             ; 00:02:47                           ;
-; Fitter               ; 00:05:54     ; 1.3                     ; 3716 MB             ; 00:09:39                           ;
-; Assembler            ; 00:00:18     ; 1.0                     ; 1378 MB             ; 00:00:17                           ;
-; Total                ; 00:07:58     ; --                      ; --                  ; 00:12:43                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:01:46     ; 1.6                     ; 1984 MB             ; 00:02:46                           ;
+; Fitter                    ; 00:05:07     ; 1.3                     ; 3781 MB             ; 00:08:45                           ;
+; Assembler                 ; 00:00:16     ; 1.0                     ; 1377 MB             ; 00:00:17                           ;
+; TimeQuest Timing Analyzer ; 00:01:04     ; 1.9                     ; 2653 MB             ; 00:01:36                           ;
+; Total                     ; 00:08:13     ; --                      ; --                  ; 00:13:24                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+----------------------+------------------+----------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
-+----------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis ; tyler-VirtualBox ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
-; Fitter               ; tyler-VirtualBox ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
-; Assembler            ; tyler-VirtualBox ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
-+----------------------+------------------+----------------+------------+----------------+
++---------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                             ;
++---------------------------+------------------+----------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++---------------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis      ; tyler-VirtualBox ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
+; Fitter                    ; tyler-VirtualBox ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
+; Assembler                 ; tyler-VirtualBox ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
+; TimeQuest Timing Analyzer ; tyler-VirtualBox ; Ubuntu 16.04.4 ; 16         ; x86_64         ;
++---------------------------+------------------+----------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off nios2_ddr_prog_mem -c nios2_ddr_prog_mem
-quartus_fit --read_settings_files=on --write_settings_files=off nios2_ddr_prog_mem -c nios2_ddr_prog_mem
-quartus_asm --read_settings_files=on --write_settings_files=off nios2_ddr_prog_mem -c nios2_ddr_prog_mem
+quartus_fit --read_settings_files=off --write_settings_files=off nios2_ddr_prog_mem -c nios2_ddr_prog_mem
+quartus_asm --read_settings_files=off --write_settings_files=off nios2_ddr_prog_mem -c nios2_ddr_prog_mem
+quartus_sta nios2_ddr_prog_mem -c nios2_ddr_prog_mem
 
 
 

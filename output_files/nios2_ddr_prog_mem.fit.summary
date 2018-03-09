@@ -1,12 +1,12 @@
-Fitter Status : Successful - Fri Mar  9 10:10:37 2018
+Fitter Status : Successful - Fri Mar  9 11:52:38 2018
 Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 Revision Name : nios2_ddr_prog_mem
 Top-level Entity Name : qsys_nios2_ddr3_top
 Family : Cyclone V
 Device : 5CEFA7F23I7
 Timing Models : Final
-Logic utilization (in ALMs) : 4,947 / 56,480 ( 9 % )
-Total registers : 7694
+Logic utilization (in ALMs) : 4,923 / 56,480 ( 9 % )
+Total registers : 7613
 Total pins : 53 / 240 ( 22 % )
 Total virtual pins : 0
 Total block memory bits : 1,298,576 / 7,024,640 ( 18 % )

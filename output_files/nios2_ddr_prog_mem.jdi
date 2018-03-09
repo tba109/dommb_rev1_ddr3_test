@@ -240,7 +240,7 @@
     </sld_info>
     <sld_info hpath="qsys_nios2_ddr3:u0" name="u0">
       <assignment_values>
-        <assignment_value text="QSYS_NAME qsys_nios2_ddr3 HAS_SOPCINFO 1 GENERATION_ID 1520607111"/>
+        <assignment_value text="QSYS_NAME qsys_nios2_ddr3 HAS_SOPCINFO 1 GENERATION_ID 1520610881"/>
       </assignment_values>
       <parameters/>
     </sld_info>

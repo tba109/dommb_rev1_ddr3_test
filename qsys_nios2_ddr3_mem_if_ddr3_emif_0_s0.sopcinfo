@@ -5,7 +5,7 @@
  version="16.0"
  fabric="QSYS">
  <!-- Format version 16.0 211 (Future versions may contain additional information.) -->
- <!-- 2018.03.09.09:59:51 -->
+ <!-- 2018.03.09.11:01:06 -->
  <!-- A collection of modules and connections -->
  <parameter name="SYS_INFO_DEVICE_FAMILY">
   <type>java.lang.String</type>

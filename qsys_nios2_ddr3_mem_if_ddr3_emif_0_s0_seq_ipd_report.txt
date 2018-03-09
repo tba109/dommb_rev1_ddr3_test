@@ -341,22 +341,22 @@ generated files (just this core):
    /home/tyler/dommb_rev1_ddr3_test/qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0/submodules/qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv (3833)
  
  
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.avl_clk: Timing: ELA:1/0.001s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_rst: Timing: VAL:1/0.000s ELA:1/0.010s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.cpu_inst: Timing: VAL:12/0.003s/0.005s ELA:12/0.040s/0.416s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_scc_mgr_inst: Timing: VAL:1/0.000s ELA:1/0.008s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_reg_file_inst: Timing: VAL:1/0.002s ELA:1/0.002s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_phy_mgr_inst: Timing: VAL:1/0.000s ELA:1/0.005s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_data_mgr_inst: Timing: VAL:1/0.000s ELA:1/0.004s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.afi_clk: Timing: ELA:1/0.002s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.avl_clk: Timing: ELA:1/0.003s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_rst: Timing: VAL:1/0.000s ELA:1/0.011s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.cpu_inst: Timing: VAL:12/0.004s/0.026s ELA:12/0.040s/0.390s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_scc_mgr_inst: Timing: VAL:1/0.000s ELA:1/0.012s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_reg_file_inst: Timing: VAL:1/0.000s ELA:1/0.006s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_phy_mgr_inst: Timing: VAL:1/0.000s ELA:1/0.006s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_data_mgr_inst: Timing: VAL:1/0.002s ELA:1/0.002s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.afi_clk: Timing: ELA:1/0.000s
  [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.afi_reset: Timing: ELA:1/0.001s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_rw_mgr_inst: Timing: VAL:1/0.001s ELA:1/0.011s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_mem: Timing: VAL:2/0.001s/0.002s ELA:2/0.003s/0.004s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_rw_mgr_inst: Timing: VAL:1/0.001s ELA:1/0.009s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_mem: Timing: VAL:2/0.000s/0.000s ELA:2/0.004s/0.006s
  [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.scc_clk: Timing: ELA:1/0.000s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.scc_reset: Timing: ELA:1/0.001s
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.seq_bridge: Timing: ELA:3/0.005s/0.007s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.scc_reset: Timing: ELA:1/0.000s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.seq_bridge: Timing: ELA:3/0.004s/0.008s
  [Warning] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0.sequencer_rw_mgr_inst: <b>sequencer_rw_mgr_inst.csr</b> must be exported, or connected to a matching conduit.
- [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0: Timing: VAL:1/0.001s COM:1/2.126s
+ [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0: Timing: VAL:1/0.002s COM:1/2.296s
  [Info] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0: Generating <b>qsys_sequencer_110</b> "<b>qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0</b>" for QUARTUS_SYNTH
  [Debug] qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0: queue size: 0 starting:qsys_sequencer_110 "qsys_nios2_ddr3_mem_if_ddr3_emif_0_s0"
  [Progress] min: 0
@@ -870,49 +870,49 @@ generated files (just this core):
  [Progress] current: 1
  [Info] avalon_st_adapter: Inserting error_adapter: error_adapter_0
  [Debug] avalon_st_adapter.clk_bridge_0: Timing: ELA:1/0.000s
- [Debug] avalon_st_adapter.rst_bridge_0: Timing: ELA:2/0.000s/0.001s
+ [Debug] avalon_st_adapter.rst_bridge_0: Timing: ELA:2/0.001s/0.001s
  [Debug] avalon_st_adapter.error_adapter_0: Timing: ELA:1/0.007s
- [Debug] avalon_st_adapter: Timing: COM:3/0.034s/0.054s
+ [Debug] avalon_st_adapter: Timing: COM:3/0.036s/0.053s
  [Progress] min: 0
  [Progress] max: 1
  [Progress] current: 1
  [Info] avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
  [Debug] avalon_st_adapter_001.clk_bridge_0: Timing: ELA:1/0.000s
- [Debug] avalon_st_adapter_001.rst_bridge_0: Timing: ELA:2/0.000s/0.001s
- [Debug] avalon_st_adapter_001.error_adapter_0: Timing: ELA:1/0.007s
- [Debug] avalon_st_adapter_001: Timing: COM:3/0.013s/0.015s
+ [Debug] avalon_st_adapter_001.rst_bridge_0: Timing: ELA:2/0.000s/0.000s
+ [Debug] avalon_st_adapter_001.error_adapter_0: Timing: ELA:1/0.006s
+ [Debug] avalon_st_adapter_001: Timing: COM:3/0.016s/0.017s
  [Progress] min: 0
  [Progress] max: 1
  [Progress] current: 1
  [Info] avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
  [Debug] avalon_st_adapter_002.clk_bridge_0: Timing: ELA:1/0.000s
- [Debug] avalon_st_adapter_002.rst_bridge_0: Timing: ELA:2/0.000s/0.000s
- [Debug] avalon_st_adapter_002.error_adapter_0: Timing: ELA:1/0.047s
- [Debug] avalon_st_adapter_002: Timing: COM:3/0.038s/0.075s
+ [Debug] avalon_st_adapter_002.rst_bridge_0: Timing: ELA:2/0.000s/0.001s
+ [Debug] avalon_st_adapter_002.error_adapter_0: Timing: ELA:1/0.028s
+ [Debug] avalon_st_adapter_002: Timing: COM:3/0.023s/0.035s
  [Progress] min: 0
  [Progress] max: 1
  [Progress] current: 1
  [Info] avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
- [Debug] avalon_st_adapter_003.clk_bridge_0: Timing: ELA:1/0.001s
+ [Debug] avalon_st_adapter_003.clk_bridge_0: Timing: ELA:1/0.000s
  [Debug] avalon_st_adapter_003.rst_bridge_0: Timing: ELA:2/0.000s/0.000s
- [Debug] avalon_st_adapter_003.error_adapter_0: Timing: ELA:1/0.008s
- [Debug] avalon_st_adapter_003: Timing: COM:3/0.018s/0.023s
+ [Debug] avalon_st_adapter_003.error_adapter_0: Timing: ELA:1/0.003s
+ [Debug] avalon_st_adapter_003: Timing: COM:3/0.014s/0.017s
  [Progress] min: 0
  [Progress] max: 1
  [Progress] current: 1
  [Info] avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
- [Debug] avalon_st_adapter_004.clk_bridge_0: Timing: ELA:1/0.001s
- [Debug] avalon_st_adapter_004.rst_bridge_0: Timing: ELA:2/0.000s/0.001s
- [Debug] avalon_st_adapter_004.error_adapter_0: Timing: ELA:1/0.009s
- [Debug] avalon_st_adapter_004: Timing: COM:3/0.015s/0.017s
+ [Debug] avalon_st_adapter_004.clk_bridge_0: Timing: ELA:1/0.000s
+ [Debug] avalon_st_adapter_004.rst_bridge_0: Timing: ELA:2/0.000s/0.000s
+ [Debug] avalon_st_adapter_004.error_adapter_0: Timing: ELA:1/0.007s
+ [Debug] avalon_st_adapter_004: Timing: COM:3/0.018s/0.025s
  [Progress] min: 0
  [Progress] max: 1
  [Progress] current: 1
  [Info] avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
  [Debug] avalon_st_adapter_005.clk_bridge_0: Timing: ELA:1/0.000s
- [Debug] avalon_st_adapter_005.rst_bridge_0: Timing: ELA:2/0.001s/0.001s
- [Debug] avalon_st_adapter_005.error_adapter_0: Timing: ELA:1/0.008s
- [Debug] avalon_st_adapter_005: Timing: COM:3/0.016s/0.018s
+ [Debug] avalon_st_adapter_005.rst_bridge_0: Timing: ELA:2/0.000s/0.001s
+ [Debug] avalon_st_adapter_005.error_adapter_0: Timing: ELA:1/0.006s
+ [Debug] avalon_st_adapter_005: Timing: COM:3/0.016s/0.017s
  [Debug] com_altera_sopcmodel_transforms_avalonst_AvalonStreamingTransform: After transform: <b>60</b> modules, <b>198</b> connections
  [Debug] Transform: ResetAdaptation
  [Debug] mm_interconnect_0: "<b>mm_interconnect_0</b>" reuses <b>altera_merlin_master_translator</b> "<b>submodules/altera_merlin_master_translator</b>"

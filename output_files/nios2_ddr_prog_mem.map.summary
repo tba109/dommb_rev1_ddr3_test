@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Fri Mar  9 10:02:41 2018
+Analysis & Synthesis Status : Successful - Fri Mar  9 11:47:29 2018
 Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 Revision Name : nios2_ddr_prog_mem
 Top-level Entity Name : qsys_nios2_ddr3_top
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 7292
+Total registers : 7244
 Total pins : 53
 Total virtual pins : 0
 Total block memory bits : 1,298,576

@@ -3,63 +3,63 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 100C Model Setup 'OSC_TCXO_20M_FPGA'
-Slack : -2.401
-TNS   : -14.220
+Slack : -2.361
+TNS   : -14.094
 
 Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.591
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.684
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 0.843
+Slack : 0.789
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
 Slack : 0.851
 TNS   : 0.000
 
-Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 0.961
+Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
+Slack : 1.845
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 1.806
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 2.075
+Slack : 2.051
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Setup 'altera_reserved_tck'
-Slack : 8.697
+Slack : 7.608
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 9.635
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.271
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 0.282
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 0.284
+Slack : 9.866
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'altera_reserved_tck'
-Slack : 0.294
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 0.302
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 0.334
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.343
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'OSC_TCXO_20M_FPGA'
-Slack : 0.451
+Slack : 0.443
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
@@ -67,75 +67,75 @@ Slack : 0.623
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 1.230
+Slack : 1.216
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 1.476
+Slack : 1.480
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : -1.258
-TNS   : -54.384
+Slack : -1.399
+TNS   : -61.731
 
 Type  : Slow 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : -0.555
-TNS   : -8.285
+Slack : -0.508
+TNS   : -7.580
 
 Type  : Slow 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 1.006
+Slack : 2.499
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 5.446
+Slack : 4.561
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 5.531
+Slack : 5.442
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 9.967
+Slack : 9.822
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'altera_reserved_tck'
-Slack : 14.873
+Slack : 13.988
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Recovery 'OSC_TCXO_20M_FPGA'
-Slack : 44.347
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.703
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Removal 'altera_reserved_tck'
-Slack : 0.835
+Slack : 42.977
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 0.963
+Slack : 0.707
 TNS   : 0.000
 
-Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 1.127
+Type  : Slow 1100mV 100C Model Removal 'altera_reserved_tck'
+Slack : 1.047
+TNS   : 0.000
+
+Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 1.076
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Removal 'OSC_TCXO_20M_FPGA'
-Slack : 1.211
-TNS   : 0.000
-
-Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 1.262
+Slack : 1.091
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 1.415
+Slack : 1.118
+TNS   : 0.000
+
+Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 1.159
+TNS   : 0.000
+
+Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
+Slack : 1.206
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 1.510
+Slack : 1.262
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
@@ -151,7 +151,7 @@ Slack : 1.947
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 2.455
+Slack : 2.429
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
@@ -159,79 +159,79 @@ Slack : 2.630
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 8.612
+Slack : 8.620
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.390
+Slack : 15.483
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 19.275
+Slack : 19.046
 TNS   : 0.000
 
 Type  : Slow 1100mV 100C Model Minimum Pulse Width 'OSC_TCXO_20M_FPGA'
-Slack : 23.776
+Slack : 23.777
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'OSC_TCXO_20M_FPGA'
-Slack : -2.399
-TNS   : -14.193
+Slack : -2.358
+TNS   : -14.084
 
 Type  : Slow 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.583
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.888
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
 Slack : 0.967
 TNS   : 0.000
 
-Type  : Slow 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 1.063
-TNS   : 0.000
-
 Type  : Slow 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 1.325
+Slack : 1.238
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 2.172
+Slack : 2.217
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 2.263
+Slack : 2.489
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'altera_reserved_tck'
-Slack : 8.851
+Slack : 7.764
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 9.533
-TNS   : 0.000
-
-Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.258
-TNS   : 0.000
-
-Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 0.266
-TNS   : 0.000
-
-Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 0.268
+Slack : 9.843
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'altera_reserved_tck'
-Slack : 0.283
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.275
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
+Slack : 0.290
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 0.322
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.333
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'OSC_TCXO_20M_FPGA'
-Slack : 0.497
+Slack : 0.479
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
@@ -239,75 +239,75 @@ Slack : 0.809
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 1.164
+Slack : 1.129
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 1.352
+Slack : 1.385
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : -0.565
-TNS   : -23.679
+Slack : -0.756
+TNS   : -31.304
 
 Type  : Slow 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : -0.043
-TNS   : -0.598
+Slack : -0.084
+TNS   : -1.221
 
 Type  : Slow 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 1.515
+Slack : 2.945
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 6.093
+Slack : 5.210
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 6.150
+Slack : 6.041
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 10.307
+Slack : 10.135
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'altera_reserved_tck'
-Slack : 14.994
+Slack : 14.135
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Recovery 'OSC_TCXO_20M_FPGA'
-Slack : 44.601
-TNS   : 0.000
-
-Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.653
-TNS   : 0.000
-
-Type  : Slow 1100mV -40C Model Removal 'altera_reserved_tck'
-Slack : 0.812
+Slack : 43.422
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 0.926
+Slack : 0.660
 TNS   : 0.000
 
-Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 1.042
+Type  : Slow 1100mV -40C Model Removal 'altera_reserved_tck'
+Slack : 0.946
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 1.017
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Removal 'OSC_TCXO_20M_FPGA'
-Slack : 1.066
-TNS   : 0.000
-
-Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 1.172
-TNS   : 0.000
-
-Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 1.216
+Slack : 1.018
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 1.331
+Slack : 1.043
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 1.070
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
+Slack : 1.153
+TNS   : 0.000
+
+Type  : Slow 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 1.161
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
@@ -319,11 +319,11 @@ Slack : 0.968
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 1.912
+Slack : 1.914
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 2.378
+Slack : 2.370
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
@@ -331,23 +331,23 @@ Slack : 2.628
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 8.583
+Slack : 8.586
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.412
+Slack : 15.525
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 19.197
+Slack : 19.043
 TNS   : 0.000
 
 Type  : Slow 1100mV -40C Model Minimum Pulse Width 'OSC_TCXO_20M_FPGA'
-Slack : 23.772
+Slack : 23.773
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'OSC_TCXO_20M_FPGA'
-Slack : 0.417
+Slack : 0.447
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
@@ -355,55 +355,59 @@ Slack : 1.771
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 2.591
+Slack : 2.317
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 3.268
+Slack : 3.240
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 3.389
+Slack : 3.378
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 3.694
+Slack : 3.825
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 4.080
+Slack : 3.882
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'altera_reserved_tck'
-Slack : 12.581
+Slack : 11.856
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 14.653
+Slack : 14.422
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'altera_reserved_tck'
-Slack : 0.082
+Slack : 0.023
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.145
+Slack : 0.153
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 0.149
-TNS   : 0.000
-
-Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 0.154
+Slack : 0.158
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 0.172
+Slack : 0.165
+TNS   : 0.000
+
+Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.177
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'OSC_TCXO_20M_FPGA'
-Slack : 0.182
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 0.697
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
@@ -411,75 +415,71 @@ Slack : 0.732
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 0.736
-TNS   : 0.000
-
-Type  : Fast 1100mV 100C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 0.783
+Slack : 0.911
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : -0.159
-TNS   : -2.376
+Slack : 0.105
+TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.290
+Slack : 0.202
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 3.063
+Slack : 4.100
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 6.932
+Slack : 6.353
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 6.976
+Slack : 6.945
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 11.408
+Slack : 11.375
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'altera_reserved_tck'
-Slack : 16.106
+Slack : 15.521
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Recovery 'OSC_TCXO_20M_FPGA'
-Slack : 46.532
-TNS   : 0.000
-
-Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.307
-TNS   : 0.000
-
-Type  : Fast 1100mV 100C Model Removal 'altera_reserved_tck'
-Slack : 0.329
+Slack : 45.422
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 0.453
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 1100mV 100C Model Removal 'altera_reserved_tck'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.533
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Removal 'OSC_TCXO_20M_FPGA'
-Slack : 0.643
-TNS   : 0.000
-
-Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 0.682
+Slack : 0.536
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 0.717
-TNS   : 0.000
-
-Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 0.764
+Slack : 0.573
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 0.795
+Slack : 0.650
+TNS   : 0.000
+
+Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 0.724
+TNS   : 0.000
+
+Type  : Fast 1100mV 100C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
+Slack : 0.735
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
@@ -495,7 +495,7 @@ Slack : 2.230
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 2.884
+Slack : 2.873
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
@@ -503,15 +503,15 @@ Slack : 2.968
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 8.902
+Slack : 8.907
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.182
+Slack : 15.273
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 19.538
+Slack : 19.537
 TNS   : 0.000
 
 Type  : Fast 1100mV 100C Model Minimum Pulse Width 'OSC_TCXO_20M_FPGA'
@@ -519,7 +519,7 @@ Slack : 23.315
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'OSC_TCXO_20M_FPGA'
-Slack : 0.548
+Slack : 0.568
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
@@ -527,63 +527,63 @@ Slack : 1.812
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 2.888
+Slack : 2.680
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 3.797
+Slack : 3.768
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 3.857
+Slack : 3.923
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 4.216
+Slack : 4.317
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 4.430
+Slack : 4.332
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'altera_reserved_tck'
-Slack : 13.219
+Slack : 12.654
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Setup 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 15.391
+Slack : 15.308
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'altera_reserved_tck'
-Slack : 0.054
-TNS   : 0.000
-
-Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.126
+Slack : 0.006
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 0.128
+Slack : 0.135
 TNS   : 0.000
 
-Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 0.136
+Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.138
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 0.149
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
+Slack : 0.150
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'OSC_TCXO_20M_FPGA'
-Slack : 0.167
+Slack : 0.168
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 0.643
+Slack : 0.555
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 0.660
+Slack : 0.743
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Hold 'u0|mem_if_ddr3_emif_0|pll0|pll_dq_write_clk'
@@ -591,67 +591,67 @@ Slack : 0.746
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 0.379
+Slack : 0.566
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 1.146
+Slack : 1.078
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 3.738
+Slack : 4.537
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 7.793
+Slack : 7.349
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 7.815
+Slack : 7.793
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 11.704
+Slack : 11.649
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'altera_reserved_tck'
-Slack : 16.206
+Slack : 15.704
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Recovery 'OSC_TCXO_20M_FPGA'
-Slack : 47.153
-TNS   : 0.000
-
-Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
-Slack : 0.265
-TNS   : 0.000
-
-Type  : Fast 1100mV -40C Model Removal 'altera_reserved_tck'
-Slack : 0.273
+Slack : 46.361
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk'
-Slack : 0.391
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Fast 1100mV -40C Model Removal 'altera_reserved_tck'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk'
+Slack : 0.451
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Removal 'OSC_TCXO_20M_FPGA'
-Slack : 0.479
-TNS   : 0.000
-
-Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
-Slack : 0.549
+Slack : 0.457
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 0.604
-TNS   : 0.000
-
-Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
-Slack : 0.609
+Slack : 0.487
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 0.660
+Slack : 0.546
+TNS   : 0.000
+
+Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Fast 1100mV -40C Model Removal 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
+Slack : 0.588
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_write_clk'
@@ -667,7 +667,7 @@ Slack : 2.226
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk'
-Slack : 2.869
+Slack : 2.863
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_afi_phy_clk'
@@ -679,11 +679,11 @@ Slack : 8.899
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.206
+Slack : 15.285
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'u0|mem_if_ddr3_emif_0|pll0|pll_config_clk'
-Slack : 19.545
+Slack : 19.542
 TNS   : 0.000
 
 Type  : Fast 1100mV -40C Model Minimum Pulse Width 'OSC_TCXO_20M_FPGA'
