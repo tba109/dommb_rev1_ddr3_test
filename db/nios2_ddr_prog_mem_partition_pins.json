@@ -4,6 +4,18 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "EXT_UEXT1_6",
+					"strict" : false
+				},
+				{
+					"name" : "EXT_UEXT1_7",
+					"strict" : false
+				},
+				{
+					"name" : "EXT_UEXT1_5",
+					"strict" : false
+				},
+				{
 					"name" : "OSC_TCXO_20M_FPGA",
 					"strict" : false
 				}

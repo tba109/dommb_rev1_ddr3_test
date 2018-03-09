@@ -928,7 +928,7 @@ begin
 			.i(capture_strobe_ibuf_i),
 			.ibar(capture_strobe_ibuf_ibar),
 			.o(dqsin),
-			.dynamicterminationcontrol()
+			.dynamicterminationcontrol(1'b0)
 		);
 	end
 	else
@@ -940,7 +940,7 @@ begin
 			.i(capture_strobe_ibuf_i),
 			.o(dqsin),
 			.ibar(),
-			.dynamicterminationcontrol()
+			.dynamicterminationcontrol(1'b0)
 		);
 	end
 
@@ -1562,7 +1562,7 @@ begin
 			cyclonev_pseudo_diff_out   pseudo_diffa_0
 			( 
 				.oein(delayed_os_oe),
-				// .dtcin(delayed_oct),
+				.dtcin(delayed_oct),
 				.oeout(diff_oe),
 				.oebout(diff_oe_bar),
 				.dtc(diff_dtc),
@@ -1583,9 +1583,9 @@ begin
 				.o(strobe_n_io),
 				.obar(),
 				.oe(~diff_oe_bar),
-				.parallelterminationcontrol	(),
-				.dynamicterminationcontrol	(),
-				.seriesterminationcontrol	(),
+				.parallelterminationcontrol	(parallelterminationcontrol_in),
+				.dynamicterminationcontrol	(diff_dtc_bar),
+				.seriesterminationcontrol	(seriesterminationcontrol_in),
 				.devoe()
 			);
 		end
@@ -1599,7 +1599,7 @@ begin
 				.i(os_delayed2),
 				.o(os),
 				.obar(os_bar),
-				// .dtcin(),
+				.dtcin(),
 				.dtc(),
 				.dtcbar()
 			);
@@ -1614,7 +1614,7 @@ begin
 				.o(output_strobe_n_out),
 				.obar(),
 				.oe(~diff_oe_bar),
-				.dynamicterminationcontrol(),
+				.dynamicterminationcontrol(1'b0),
 				.seriesterminationcontrol(),
 				.parallelterminationcontrol(),
 				.devoe()
@@ -1642,9 +1642,9 @@ begin
 			.o(strobe_io),
 			.obar(),
 			.oe(~diff_oe),
-			.parallelterminationcontrol	(),
-			.dynamicterminationcontrol	(),
-			.seriesterminationcontrol	(),
+			.parallelterminationcontrol	(parallelterminationcontrol_in),
+			.dynamicterminationcontrol	(diff_dtc),
+			.seriesterminationcontrol	(seriesterminationcontrol_in),
 			.devoe()
 		);
 	end
@@ -1661,7 +1661,7 @@ begin
 			.obar(),
 			.oe(~diff_oe),
 			.parallelterminationcontrol	(),		
-			.dynamicterminationcontrol	(),
+			.dynamicterminationcontrol	(1'b0),
 			.seriesterminationcontrol	(),
 			.devoe()
 			);
@@ -2130,7 +2130,7 @@ generate
 					.i(read_write_data_io[pin_num]),
 					.o(raw_input),
 					.ibar(),
-					.dynamicterminationcontrol()
+					.dynamicterminationcontrol(1'b0)
 				);
 			end
 			else
@@ -2139,7 +2139,7 @@ generate
 					.i(read_data_in[pin_num]),
 					.o(raw_input),
 					.ibar(),
-					.dynamicterminationcontrol()
+					.dynamicterminationcontrol(1'b0)
 				);
 			end
 		end
@@ -2208,11 +2208,11 @@ generate
 					.i (delayed_data_out),
 					.o (write_data_out [pin_num]),
 					.oe (~delayed_oe),
-					.parallelterminationcontrol	(),		
-					.seriesterminationcontrol	(),
+					.parallelterminationcontrol	(parallelterminationcontrol_in),		
+					.seriesterminationcontrol	(seriesterminationcontrol_in),
           .obar(),
           .devoe(),
-          .dynamicterminationcontrol()																	 
+          .dynamicterminationcontrol(1'b0)																	 
 				);
 			end
 			else if (PIN_TYPE == "bidir")
@@ -2224,9 +2224,9 @@ generate
 					.oe (~delayed_oe),
 					.i (delayed_data_out),
 					.o (read_write_data_io [pin_num]),
-					.parallelterminationcontrol	(),
-					.dynamicterminationcontrol	(),
-					.seriesterminationcontrol	(),
+					.parallelterminationcontrol	(parallelterminationcontrol_in),
+					.dynamicterminationcontrol	(delayed_oct),
+					.seriesterminationcontrol	(seriesterminationcontrol_in),
           .obar(),
           .devoe()				
 				);
@@ -2423,9 +2423,9 @@ generate
 		cyclonev_io_obuf obuf_1 (
 			.i (delayed_data_out),
 			.o (extra_write_data_out[epin_num]),
-			.parallelterminationcontrol(),
-			.dynamicterminationcontrol(),
-			.seriesterminationcontrol(),
+			.parallelterminationcontrol(parallelterminationcontrol_in),
+			.dynamicterminationcontrol(1'b0),
+			.seriesterminationcontrol(seriesterminationcontrol_in),
 			.oe (1'b1),
 			.obar(),
 			.devoe()

@@ -5,6 +5,9 @@
 
 module qsys_nios2_ddr3_top
   (
+   output 	 EXT_UEXT1_5, // pin G21, +2.5v. TBA_NOTE: This indicates SDRAM init done.
+   output 	 EXT_UEXT1_6, // pin H20, +2.5v. TBA_NOTE: This indicates cal success.
+   output 	 EXT_UEXT1_7, // pin J21, +2.5v. TBA_NOTE: This indicates cal fail.      
    input 	 OSC_TCXO_20M_FPGA,
    output [13:0] DDR3_A,
    output [2:0]  DDR3_BA,
@@ -65,9 +68,9 @@ module qsys_nios2_ddr3_top
       .memory_mem_dqs     (DDR3_DQS_p),     //       .mem_dqs
       .memory_mem_dqs_n   (DDR3_DQS_n),   //       .mem_dqs_n
       .memory_mem_odt     (DDR3_ODT),     //       .mem_odt
-      .mem_if_ddr3_emif_0_status_local_init_done(init_done),
-      .mem_if_ddr3_emif_0_status_local_cal_success(cal_success),
-      .mem_if_ddr3_emif_0_status_local_cal_fail(cal_fail),
+      .mem_if_ddr3_emif_0_status_local_init_done(EXT_UEXT1_5),
+      .mem_if_ddr3_emif_0_status_local_cal_success(EXT_UEXT1_6),
+      .mem_if_ddr3_emif_0_status_local_cal_fail(EXT_UEXT1_7),
       .oct_rzqin(DDR3_RZQ)
       // .mem_if_ddr3_emif_0_pll_sharing_pll_mem_clk(),
       // .mem_if_ddr3_emif_0_pll_sharing_pll_write_clk(),

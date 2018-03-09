@@ -19,8 +19,8 @@
 			memory_mem_dqs                              : inout std_logic_vector(1 downto 0)  := (others => 'X'); -- mem_dqs
 			memory_mem_dqs_n                            : inout std_logic_vector(1 downto 0)  := (others => 'X'); -- mem_dqs_n
 			memory_mem_odt                              : out   std_logic_vector(0 downto 0);                     -- mem_odt
-			reset_reset_n                               : in    std_logic                     := 'X';             -- reset_n
-			oct_rzqin                                   : in    std_logic                     := 'X'              -- rzqin
+			oct_rzqin                                   : in    std_logic                     := 'X';             -- rzqin
+			reset_reset_n                               : in    std_logic                     := 'X'              -- reset_n
 		);
 	end component qsys_nios2_ddr3;
 

@@ -52,53 +52,53 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[0]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[1]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[2]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[3]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[4]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[5]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[6]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[7]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[8]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[9]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[10]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[11]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[12]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[13]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_BA[2]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_BA[1]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_BA[0]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_CAS_n
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_CKE
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_CK_n
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_CK_p
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_CS_n
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DM[0]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DM[1]
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_DQS_p[0]
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_DQS_p[1]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[0]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[1]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[2]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[3]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[4]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[5]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[6]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[7]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[8]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[9]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[10]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[11]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[12]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[13]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[14]
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_DQ[15]
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_ODT
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_RAS_n
-set_instance_assignment -name IO_STANDARD "1.5 V" -to DDR3_RESET_n
-set_instance_assignment -name IO_STANDARD "SSTL-15" -to DDR3_RZQ
-set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_WE_n
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[3] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[4] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[5] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[6] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[7] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[8] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[9] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[10] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[11] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[12] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_A[13] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_BA[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_BA[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_BA[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_CAS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_CKE -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_CK_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_CK_p -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_CS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DM[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DM[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_DQS_p[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_DQS_p[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[3] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[4] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[5] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[6] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[7] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[8] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[9] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[10] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[11] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[12] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[13] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[14] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_DQ[15] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_ODT -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_RAS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD 1.5V -to DDR3_RESET_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15" -to DDR3_RZQ -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to DDR3_WE_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
 set_instance_assignment -name GLOBAL_SIGNAL "GLOBAL CLOCK" -to u0|mem_if_ddr3_emif_0|pll0|pll_afi_clk -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|mem_if_ddr3_emif_0|pll0|pll_addr_cmd_clk -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
 set_instance_assignment -name GLOBAL_SIGNAL "DUAL-REGIONAL CLOCK" -to u0|mem_if_ddr3_emif_0|pll0|pll_avl_clk -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
@@ -121,8 +121,8 @@ set_global_assignment -name UNIPHY_SEQUENCER_DQS_CONFIG_ENABLE ON
 set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
 set_global_assignment -name ECO_REGENERATE_REPORT ON
 set_location_assignment PIN_C21 -to OSC_TCXO_20M_FPGA
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_DQS_n[0]
-set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_DQS_n[1]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_DQS_n[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to DDR3_DQS_n[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to OSC_TCXO_20M_FPGA
 set_global_assignment -name VERILOG_FILE qsys_nios2_ddr3/synthesis/qsys_nios2_ddr3.v -library qsys_nios2_ddr3
 set_global_assignment -name QIP_FILE qsys_nios2_ddr3/synthesis/qsys_nios2_ddr3.qip
@@ -300,5 +300,134 @@ set_location_assignment PIN_AA10 -to DDR3_RAS_n
 set_location_assignment PIN_W21 -to DDR3_RESET_n
 set_location_assignment PIN_AB13 -to DDR3_RZQ
 set_location_assignment PIN_AB5 -to DDR3_WE_n
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[3] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[3] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[4] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[4] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[5] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[5] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[6] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[6] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[7] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[7] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[8] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[8] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[9] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[9] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[10] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[10] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[11] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[11] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[12] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[12] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[13] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[13] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[14] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[14] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQ[15] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQ[15] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQS_p[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQS_p[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D5_DELAY 4 -to DDR3_DQS_p[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D6_DELAY 0 -to DDR3_DQS_p[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQS_p[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQS_p[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D5_DELAY 4 -to DDR3_DQS_p[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D6_DELAY 0 -to DDR3_DQS_p[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQS_n[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQS_n[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D5_DELAY 4 -to DDR3_DQS_n[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D6_DELAY 0 -to DDR3_DQS_n[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to DDR3_DQS_n[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DQS_n[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D5_DELAY 4 -to DDR3_DQS_n[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D6_DELAY 0 -to DDR3_DQS_n[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to DDR3_CK_p -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D5_DELAY 2 -to DDR3_CK_p -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to DDR3_CK_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name D5_DELAY 2 -to DDR3_CK_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[10] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[11] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[12] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[13] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[3] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[4] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[5] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[6] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[7] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[8] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_A[9] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_BA[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_BA[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_BA[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_CS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_WE_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_RAS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_CAS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_ODT -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_CKE -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to DDR3_RESET_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DM[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to DDR3_DM[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[3] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[4] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[5] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[6] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[7] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[8] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[9] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[10] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[11] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[12] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[13] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[14] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQ[15] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DM[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DM[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQS_p[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQS_p[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQS_n[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_DQS_n[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[10] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[11] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[12] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[13] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[3] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[4] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[5] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[6] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[7] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[8] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_A[9] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_BA[0] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_BA[1] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_BA[2] -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_CS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_WE_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_RAS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_CAS_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_ODT -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_CKE -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_RESET_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_CK_p -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to DDR3_CK_n -tag __qsys_nios2_ddr3_mem_if_ddr3_emif_0_p0
+set_location_assignment PIN_G21 -to EXT_UEXT1_5
+set_location_assignment PIN_H20 -to EXT_UEXT1_6
+set_location_assignment PIN_J21 -to EXT_UEXT1_7
 set_global_assignment -name SLD_FILE db/stp2_auto_stripped.stp
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

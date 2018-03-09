@@ -33,8 +33,8 @@
  --                  Bank 4A:       1.5V
  --                  Bank 5A:       2.5V
  --                  Bank 5B:       2.5V
- --                  Bank 7A:  3.3V
- --                  Bank 8A:  3.3V
+ --                  Bank 7A:  2.5V
+ --                  Bank 8A:  2.5V
  -- RREF          : External reference resistor for the quad, MUST be connected to
  --                 GND via a 2k Ohm resistor.
  -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
@@ -78,7 +78,7 @@ MSEL2                        : A2        :        :                   :         
 VCCBAT                       : A3        : power  :                   : 1.2V    :           :                
 nCONFIG                      : A4        :        :                   :         : 9A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A5        :        :                   :         : 8A        :                
-VCCIO8A                      : A6        : power  :                   : 3.3V    : 8A        :                
+VCCIO8A                      : A6        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A7        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A9        :        :                   :         : 8A        :                
@@ -88,7 +88,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : A12       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : A13       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A14       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A15       :        :                   :         : 7A        :                
-VCCIO7A                      : A16       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : A16       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A17       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A18       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A19       :        :                   :         : 7A        :                
@@ -108,13 +108,13 @@ DDR3_RAS_n                   : AA10      : output : SSTL-15 Class I   :         
 GND                          : AA11      : gnd    :                   :         :           :                
 DDR3_A[0]                    : AA12      : output : SSTL-15 Class I   :         : 3B        : Y              
 DDR3_ODT                     : AA13      : output : SSTL-15 Class I   :         : 4A        : Y              
-DDR3_DQ[3]                   : AA14      : bidir  : 1.5 V             :         : 4A        : Y              
-DDR3_DQ[6]                   : AA15      : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[3]                   : AA14      : bidir  : SSTL-15 Class I   :         : 4A        : Y              
+DDR3_DQ[6]                   : AA15      : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 VCCIO4A                      : AA16      : power  :                   : 1.5V    : 4A        :                
-DDR3_DQ[11]                  : AA17      : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[11]                  : AA17      : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA18      :        :                   :         : 4A        :                
 DDR3_CKE                     : AA19      : output : SSTL-15 Class I   :         : 4A        : Y              
-DDR3_DQ[14]                  : AA20      : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[14]                  : AA20      : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 VCCIO4A                      : AA21      : power  :                   : 1.5V    : 4A        :                
 DDR3_DM[1]                   : AA22      : output : SSTL-15 Class I   :         : 4A        : Y              
 GND                          : AB1       : gnd    :                   :         :           :                
@@ -128,17 +128,17 @@ DDR3_A[10]                   : AB8       : output : SSTL-15 Class I   :         
 GND                          : AB9       : gnd    :                   :         :           :                
 DDR3_A[3]                    : AB10      : output : SSTL-15 Class I   :         : 3B        : Y              
 DDR3_A[2]                    : AB11      : output : SSTL-15 Class I   :         : 3B        : Y              
-DDR3_DQ[2]                   : AB12      : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[2]                   : AB12      : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 DDR3_RZQ                     : AB13      : input  : SSTL-15           :         : 4A        : Y              
 GND                          : AB14      : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB15      :        :                   :         : 4A        :                
-VREFB4AN0                    : AB16      : power  :                   :         : 4A        :                
-DDR3_DQ[7]                   : AB17      : bidir  : 1.5 V             :         : 4A        : Y              
+VREFB4AN0                    : AB16      : power  :                   : 0.75V   : 4A        :                
+DDR3_DQ[7]                   : AB17      : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 DDR3_DM[0]                   : AB18      : output : SSTL-15 Class I   :         : 4A        : Y              
 GND                          : AB19      : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB20      :        :                   :         : 4A        :                
-DDR3_DQ[10]                  : AB21      : bidir  : 1.5 V             :         : 4A        : Y              
-DDR3_DQ[15]                  : AB22      : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[10]                  : AB21      : bidir  : SSTL-15 Class I   :         : 4A        : Y              
+DDR3_DQ[15]                  : AB22      : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 GND                          : B1        : gnd    :                   :         :           :                
 GND                          : B2        : gnd    :                   :         :           :                
 DNU                          : B3        :        :                   :         :           :                
@@ -157,7 +157,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : B15       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B17       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B18       :        :                   :         : 7A        :                
-VCCIO7A                      : B19       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : B19       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B20       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B21       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B22       :        :                   :         : 7A        :                
@@ -167,12 +167,12 @@ GND                          : C3        : gnd    :                   :         
 GND                          : C4        : gnd    :                   :         :           :                
 GND                          : C5        :        :                   :         : 9A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C6        :        :                   :         : 8A        :                
-VCCIO8A                      : C7        : power  :                   : 3.3V    : 8A        :                
+VCCIO8A                      : C7        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C9        :        :                   :         : 8A        :                
-VCCPD7A8A                    : C10       : power  :                   : 3.3V    : 7A, 8A    :                
+VCCPD7A8A                    : C10       : power  :                   : 2.5V    : 7A, 8A    :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C11       :        :                   :         : 7A        :                
-VCCIO7A                      : C12       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : C12       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C13       :        :                   :         : 7A        :                
 VREFB7AN0                    : C14       : power  :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C15       :        :                   :         : 7A        :                
@@ -182,7 +182,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : C18       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : C19       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C20       :        :                   :         : 7A        :                
 OSC_TCXO_20M_FPGA            : C21       : input  : 3.3-V LVCMOS      :         : 7A        : Y              
-VCCIO7A                      : C22       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : C22       : power  :                   : 2.5V    : 7A        :                
 GND                          : D1        : gnd    :                   :         :           :                
 GND                          : D2        : gnd    :                   :         :           :                
 NC                           : D3        :        :                   :         :           :                
@@ -190,15 +190,15 @@ NC                           : D4        :        :                   :         
 GND                          : D5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8A        :                
-VCCPD7A8A                    : D8        : power  :                   : 3.3V    : 7A, 8A    :                
+VCCPD7A8A                    : D8        : power  :                   : 2.5V    : 7A, 8A    :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 8A        :                
 GND                          : D10       : gnd    :                   :         :           :                
 VCC_AUX                      : D11       : power  :                   : 2.5V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D12       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D13       :        :                   :         : 7A        :                
-VCCPD7A8A                    : D14       : power  :                   : 3.3V    : 7A, 8A    :                
-VCCIO7A                      : D15       : power  :                   : 3.3V    : 7A        :                
-VCCPD7A8A                    : D16       : power  :                   : 3.3V    : 7A, 8A    :                
+VCCPD7A8A                    : D14       : power  :                   : 2.5V    : 7A, 8A    :                
+VCCIO7A                      : D15       : power  :                   : 2.5V    : 7A        :                
+VCCPD7A8A                    : D16       : power  :                   : 2.5V    : 7A, 8A    :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D17       :        :                   :         : 7A        :                
 VCC_AUX                      : D18       : power  :                   : 2.5V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D19       :        :                   :         : 7A        :                
@@ -212,17 +212,17 @@ GND                          : E4        : gnd    :                   :         
 MSEL3                        : E5        :        :                   :         : 9A        :                
 VCC_AUX                      : E6        : power  :                   : 2.5V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8A        :                
-VCCIO8A                      : E8        : power  :                   : 3.3V    : 8A        :                
+VCCIO8A                      : E8        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 8A        :                
-VCCPD7A8A                    : E11       : power  :                   : 3.3V    : 7A, 8A    :                
+VCCPD7A8A                    : E11       : power  :                   : 2.5V    : 7A, 8A    :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E12       :        :                   :         : 7A        :                
 GND                          : E13       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E14       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E16       :        :                   :         : 7A        :                
 DNU                          : E17       :        :                   :         :           :                
-VCCIO7A                      : E18       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : E18       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E19       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E20       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E21       :        :                   :         : 7A        :                
@@ -237,7 +237,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : F7        :        :                   :      
 VCCPGM                       : F8        : power  :                   : 1.8V/2.5V/3.0V/3.3V :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F9        :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F10       :        :                   :         : 8A        :                
-VCCIO7A                      : F11       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : F11       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F12       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F13       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F14       :        :                   :         : 7A        :                
@@ -247,7 +247,7 @@ GND                          : F17       :        :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : F18       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F19       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F20       :        :                   :         : 7A        :                
-VCCIO7A                      : F21       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : F21       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F22       :        :                   :         : 7A        :                
 NC                           : G1        :        :                   :         :           :                
 NC                           : G2        :        :                   :         :           :                
@@ -255,21 +255,21 @@ GND                          : G3        : gnd    :                   :         
 GND                          : G4        : gnd    :                   :         :           :                
 nCE                          : G5        :        :                   :         : 9A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G6        :        :                   :         : 8A        :                
-VCCIO8A                      : G7        : power  :                   : 3.3V    : 8A        :                
+VCCIO8A                      : G7        : power  :                   : 2.5V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :         : 8A        :                
 GND                          : G9        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G10       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G11       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G12       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G13       :        :                   :         : 7A        :                
-VCCIO7A                      : G14       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : G14       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G15       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G16       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G17       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G18       :        :                   :         : 7A        :                
 GND                          : G19       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G20       :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : G21       :        :                   :         : 7A        :                
+EXT_UEXT1_5                  : G21       : output : 2.5 V             :         : 7A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G22       :        :                   :         : 7A        :                
 GND                          : H1        : gnd    :                   :         :           :                
 GND                          : H2        : gnd    :                   :         :           :                
@@ -287,10 +287,10 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : H13       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : H14       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H15       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H16       :        :                   :         : 7A        :                
-VCCIO7A                      : H17       : power  :                   : 3.3V    : 7A        :                
+VCCIO7A                      : H17       : power  :                   : 2.5V    : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H18       :        :                   :         : 7A        :                
 VCCA_FPLL                    : H19       : power  :                   : 2.5V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : H20       :        :                   :         : 7A        :                
+EXT_UEXT1_6                  : H20       : output : 2.5 V             :         : 7A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : H21       :        :                   :         : 7A        :                
 GND                          : H22       : gnd    :                   :         :           :                
 NC                           : J1        :        :                   :         :           :                
@@ -313,7 +313,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : J17       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : J18       :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J19       :        :                   :         : 7A        :                
 GND                          : J20       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J21       :        :                   :         : 7A        :                
+EXT_UEXT1_7                  : J21       : output : 2.5 V             :         : 7A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : J22       :        :                   :         : 7A        :                
 GND                          : K1        : gnd    :                   :         :           :                
 GND                          : K2        : gnd    :                   :         :           :                
@@ -481,7 +481,7 @@ GND                          : U9        : gnd    :                   :         
 DDR3_A[8]                    : U10       : output : SSTL-15 Class I   :         : 3B        : Y              
 DDR3_CK_n                    : U11       : output : Differential 1.5-V SSTL Class I :         : 3B        : Y              
 DDR3_CK_p                    : U12       : output : Differential 1.5-V SSTL Class I :         : 3B        : Y              
-DDR3_DQ[1]                   : U13       : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[1]                   : U13       : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 VCCIO4A                      : U14       : power  :                   : 1.5V    : 4A        :                
 DDR3_DQS_p[1]                : U15       : bidir  : Differential 1.5-V SSTL Class I :         : 4A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : U16       :        :                   :         : 4A        :                
@@ -503,14 +503,14 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : V9        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : V10       :        :                   :         : 3B        :                
 DNU                          : V11       :        :                   :         :           :                
 GND                          : V12       : gnd    :                   :         :           :                
-DDR3_DQ[0]                   : V13       : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[0]                   : V13       : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V14       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V15       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V16       :        :                   :         : 4A        :                
 GND                          : V17       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V18       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V19       :        :                   :         : 4A        :                
-DDR3_DQ[12]                  : V20       : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[12]                  : V20       : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V21       :        :                   :         : 4A        :                
 GND                          : V22       : gnd    :                   :         :           :                
 NC                           : W1        :        :                   :         :           :                
@@ -531,7 +531,7 @@ VCCIO4A                      : W15       : power  :                   : 1.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : W16       :        :                   :         : 4A        :                
 VCCPD3B4A                    : W17       : power  :                   : 2.5V    : 3B, 4A    :                
 VCC_AUX                      : W18       : power  :                   : 2.5V    :           :                
-DDR3_DQ[13]                  : W19       : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[13]                  : W19       : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 VCCIO4A                      : W20       : power  :                   : 1.5V    : 4A        :                
 DDR3_RESET_n                 : W21       : output : 1.5 V             :         : 4A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : W22       :        :                   :         : 4A        :                
@@ -548,10 +548,10 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : Y10       :        :                   :      
 DDR3_A[1]                    : Y11       : output : SSTL-15 Class I   :         : 3B        : Y              
 VREFB3BN0                    : Y12       : power  :                   :         : 3B        :                
 VCCIO3B                      : Y13       : power  :                   : 1.5V    : 3B        :                
-DDR3_DQ[4]                   : Y14       : bidir  : 1.5 V             :         : 4A        : Y              
-DDR3_DQ[5]                   : Y15       : bidir  : 1.5 V             :         : 4A        : Y              
-DDR3_DQ[8]                   : Y16       : bidir  : 1.5 V             :         : 4A        : Y              
-DDR3_DQ[9]                   : Y17       : bidir  : 1.5 V             :         : 4A        : Y              
+DDR3_DQ[4]                   : Y14       : bidir  : SSTL-15 Class I   :         : 4A        : Y              
+DDR3_DQ[5]                   : Y15       : bidir  : SSTL-15 Class I   :         : 4A        : Y              
+DDR3_DQ[8]                   : Y16       : bidir  : SSTL-15 Class I   :         : 4A        : Y              
+DDR3_DQ[9]                   : Y17       : bidir  : SSTL-15 Class I   :         : 4A        : Y              
 GND                          : Y18       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y19       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y20       :        :                   :         : 4A        :                
